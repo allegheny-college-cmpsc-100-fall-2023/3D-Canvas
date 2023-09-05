@@ -20,7 +20,7 @@ if ']' in url:
 
 #if url format is https://trinket.io/library/trinkets/*, cnage it to https://trinket.io/python/*
 if 'library/trinkets' in url:
-    url = url.replace('library/trinkets', 'trinket_type')
+    url = url.replace('library/trinkets', trinket_type)
 
 
 #if last character in url is not alphanumeric, remove it
