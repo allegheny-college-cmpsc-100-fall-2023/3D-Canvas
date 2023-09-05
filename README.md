@@ -3,9 +3,9 @@
 
 ## Description
 
-In this lab, you'll be drawing a semi-intricate 3D image of your own design on VPython's 3D canvas. This image should be composed of at least 15 VPython shapes, and should be carefully considered. We will be adding on to this lab in Week 2, so read the instructions carefully to plan your lab accordingly. 
+In this lab, you'll be drawing a semi-intricate 3D image of your own design on VPython's 3D canvas. This image should be composed of at least 15 VPython shape (e.g. sphere, box, pyramid, text, or other shpes you research independently), and should be carefully considered. We will be adding on to this lab in Week 2, so read the instructions carefully to plan your lab accordingly. 
 
-In the first week of working on this assignment, you should use at least three variables in crafting your image, and each of these variables should be deployed at least twice (for example, when you want two or more shapes to be the same size, or to have the same position along one or more axes). 
+In the first week of working on this assignment, you should use at least three variables in crafting your image, and each of these variables should be deployed at least twice. For example, you could use a variable to create two or more shapes that are the same size, or to have the same X, Y, or Z coordiantes. You could also have a scale variable that applies to shape dimensions. (These are just a few options, but there are others — you're welcome to use your imagination)!
 
 Each of these variables should have multiple possible values that lead to a viable image (similar to the starter code we used in the Helix Variations exercise). We'll expand on this during the second week. 
 
@@ -17,9 +17,7 @@ In this lab, you'll have opportunities to get checks for ideation, independent r
 
 ### PART ONE: Ideation Steps
 
-This is your first opportunity to get an <b>ideation</b> checkmark for a lab assignment. To receive an ideation point, complete all of the steps below. Also note that you have a chance in this lab to get a check for <b>independent research</b>, so you can think if there are any VPython tools we haven't covered in class that you want to use in this assignmet. 
-
-You can find complete VPython documentation near the top of the syllabus, under "Resources."
+This is your first opportunity to get an <b>ideation</b> checkmark for a lab assignment. To receive an ideation point, complete all of the steps below. Also note that you have a chance in this lab to get a check for <b>independent research</b>, so you can think if there are any VPython/Python tools we haven't covered in class that you want to use in this assignment. Independent research is an optional part of this assignment. 
 
 <b>Feel free to include drawings in any of the steps below! </b>
 
@@ -37,13 +35,11 @@ Now that you've made a plan, you can get to work creating the image you've imagi
 
 This assignment is an opportunity to get your first checkmark for <b>variables</b>. You also have the opportunity to get an independent reserach checkmark in this assignment. 
 
-To get that point for variables, use at least three variables in the assignment, and deploy each one at each twice. Use code comments to document your variable assignments and deployments. You can look at (this demo)[https://trinket.io/library/trinkets/b21ce9cf3f] for an example of how you might do this.
+To get that point for variables, use at least three variables in the assignment, and deploy each one at each twice. Use code comments to document your variable assignments and deployments — at least one comment for each assignment and each deplooyment. You can look at (this demo)[https://trinket.io/library/trinkets/b21ce9cf3f] for an example of how you might do this.
 
-For now, err on the side of over-documenting your code rather than explaining too little. I recommend having a comment for each line of code that explains what it is doing! Professionals tend to be a bit more spare in their comments, but in earlier staging additional commenting helps us to absorb what we are learning. 
+For now, err on the side of over-documenting your code rather than explaining too little. I recommend having a comment for each line of code that explains what it is doing! This is required for your variables assignments and deployments to get a check, but I recommend doing it for other code as well. Professionals tend to be a bit more spare in their comments, but right now additional commenting helps us to absorb what we are learning. 
 
-In order to receive a variable checkmark, you must document each line of code where variables are assigned and deployed. 
-
-In order to get an Independent Rsearch checkmark, you should use VPython and/or Python code we haven't covered in class (see [Coding References](https://github.com/allegheny-college-cmpsc-100-fall-2023/course-materials#coding-references) on the syllabus). You should mark the section of code that you've independently researched with the comment label #INDEPENDENT RESEARCH, and you should explain what the code is doing in the documents. You need to get two checkmarks for independent resarch throughout the duration of the semester in order to receive credit, so it's up to you whether you feel ready to do that work now, or if you want to save it for a later assignment. 
+To get an Independent Rsearch checkmark, you should use VPython and/or Python code we haven't covered in class (see [Coding References](https://github.com/allegheny-college-cmpsc-100-fall-2023/course-materials#coding-references) on the syllabus). You should mark the section of code that you've independently researched with the comment label #INDEPENDENT RESEARCH, and you should explain what each line of the newly-learned code is doing in the comments. You should also include a link the the source code you're referencing, and an acknowledgment if you've borrowed any codeblocks more than two lines long (even if you've modified them -- mark your modifications in the comments). You need to get two checkmarks for independent resarch throughout the duration of the semester in order to receive credit, so it's up to you whether you feel ready to do that work now, or if you want to save it for a later assignment. 
 
 More instructions will be added for our second week on this assignment, in addition to more autograding parameters. 
 
@@ -52,3 +48,9 @@ To get started, login to Trinket.io and create a new trinket. Choose VPython for
 When you are ready, you will add a link to your trinket to the LINK.md file. There's no requiremetn to update LINK.md before the deadline, but if you want to run the autograder intermitently, you can do so by updating the file.
 
 Note that a new autograde will run when I update the assignment next week. This will lead to a build fail because there will be new grading parameters I haven't outlined yet i.e. please ignore this build fail. If Github notifcations are stressing you out, you are welcome to [silence them](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications). 
+
+Helpful References from the Syllabus
+
+[Evaluation](https://github.com/allegheny-college-cmpsc-100-fall-2023/course-materials/blob/main/README.md#evaluation)
+[Borrowed Code](https://github.com/allegheny-college-cmpsc-100-fall-2023/course-materials/blob/main/README.md#coding-references)
+[Coding References](https://github.com/allegheny-college-cmpsc-100-fall-2023/course-materials/blob/main/README.md#coding-references)
