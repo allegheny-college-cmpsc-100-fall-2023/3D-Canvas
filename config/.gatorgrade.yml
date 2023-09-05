@@ -1,0 +1,60 @@
+- ./:
+    - LINK.md:
+        - description: Add Trinket link to LINK.md
+          check: MatchFileFragment
+          options:
+            fragment: trinket.io
+            count: 1
+    - main.py:
+        - description: Change the value of n on line 11
+          check: MatchFileFragment
+          options:
+            fragment: n = 20
+            count: 0
+            exact: true
+        - description: Change the value of frame_rate on line 13
+          check: MatchFileFragment
+          options:
+            fragment: frame_rate = 10
+            count: 0
+            exact: true
+        - description: Change the value of size on line 15
+          check: MatchFileFragment
+          options:
+            fragment: size = vector(20, 0.5, 5)
+            count: 0
+            exact: true
+        - description: Change the value of canvas_color on line 18
+          check: MatchFileFragment
+          options:
+            fragment: canvas_color = vector(0, 0, 1)
+            count: 0
+            exact: true
+        - description: Change the value of seconds_to_helix on line 21
+          check: MatchFileFragment
+          options:
+            fragment: seconds_to_helix = 5
+            count: 0
+            exact: true
+        - description: Change the value of speed_coefficient on line 22
+          check: MatchFileFragment
+          options:
+            fragment: speed_coefficient = 0.1
+            count: 0
+            exact: true
+        - description: Change the value of bottom_color on line 23
+          check: MatchFileFragment
+          options:
+            fragment: bottom_color = vector(0, 1, 1)
+            count: 0
+            exact: true
+        - description: Change the value of top_color on line 24
+          check: MatchFileFragment
+          options:
+            fragment: top_color = vector(0, 1, 0)
+            count: 0
+            exact: true
+
+
+
+      
