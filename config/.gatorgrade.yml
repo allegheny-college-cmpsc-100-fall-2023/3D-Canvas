@@ -20,20 +20,20 @@
             check: CountFileParagraphs
             options:
               count: 2
-          - description: IDEATION.md contains at least 150 words
-            check: CountFileWords
-            options:
-              count: 250
-          - description: IDEATION.md contains at least one image
-            check: MatchFileFragment
-            options:
-              fragment: '!['
-              count: 1
-          - description: IDEATION.md contains at least one reference link
-            check: MatchFileFragment
-            options:
-              fragment: http
-              count: 1
+      - description: IDEATION.md contains at least 150 words
+        check: CountFileWords
+        options:
+          count: 250
+      - description: IDEATION.md contains at least one image
+        check: MatchFileFragment
+        options:
+          fragment: '!['
+          count: 1
+      - description: IDEATION.md contains at least one reference link
+        check: MatchFileFragment
+        options:
+          fragment: http
+          count: 1
       
 
      
