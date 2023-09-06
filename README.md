@@ -13,6 +13,14 @@ You have until 8pm on September 17 to complete this assignment in full. Next wee
 
 In this lab, you'll have opportunities to get checks for ideation, independent research, reflection, and variables. You can get points for ideation and reflection by populationg IDEATION.md and REFLECTION.md as instructed (reflection instructions will be available in the second week of working on this assignment). 
 
+## Some notes on Gatorgrade
+
+This is probably most of your first semester working with Github Classroom and Gatorgrade. It's also MY first semester working with Github Classrom and Gatorgrade!
+
+The first time deploying someting in real life is usually a bit rocky, so I appreciate all of you bearing with me. You can always let me know if you think the software has graded you unfairly (even the best functioning bots make mistakes sometimes). 
+
+NOte that autograde will run when I update the assignment for next week, and I might make multiple passes. This will lead to a build fail because there will be new grading parameters I haven't outlined yet i.e. please ignore this build fail. If Github notifcations are stressing you out, you are welcome to [silence them](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications). 
+
 ## Week 1 Steps
 
 ### PART ONE: Ideation Steps
@@ -35,7 +43,7 @@ Now that you've made a plan, you can get to work creating the image you've imagi
 
 This assignment is an opportunity to get your first checkmark for <b>variables</b>. You also have the opportunity to get an independent reserach checkmark in this assignment. 
 
-To get that point for variables, use at least three variables in the assignment, and deploy each one at each twice. Use code comments to document your variable assignments and deployments — at least one comment for each assignment and each deplooyment. You can look at (this demo)[https://trinket.io/library/trinkets/b21ce9cf3f] for an example of how you might do this.
+To get that point for variables, use at least three variables in the assignment, and deploy each one at each twice. Use code comments to document your variable assignments and deployments — at least one comment for each assignment and each deplooyment. You can look at [this demo](https://trinket.io/library/trinkets/b21ce9cf3f) for an example of how you might do this.
 
 For now, err on the side of over-documenting your code rather than explaining too little. I recommend having a comment for each line of code that explains what it is doing! This is required for your variables assignments and deployments to get a check, but I recommend doing it for other code as well. Professionals tend to be a bit more spare in their comments, but right now additional commenting helps us to absorb what we are learning. 
 
@@ -47,7 +55,7 @@ To get started, login to Trinket.io and create a new trinket. Choose VPython for
 
 When you are ready, you will add a link to your trinket to the LINK.md file. There's no requiremetn to update LINK.md before the deadline, but if you want to run the autograder intermitently, you can do so by updating the file.
 
-Note that a new autograde will run when I update the assignment next week. This will lead to a build fail because there will be new grading parameters I haven't outlined yet i.e. please ignore this build fail. If Github notifcations are stressing you out, you are welcome to [silence them](https://docs.github.com/en/account-and-profile/managing-subscriptions-and-notifications-on-github/setting-up-notifications/configuring-notifications). 
+
 
 Helpful References from the Syllabus
 
