@@ -9,7 +9,7 @@
         - description: Document your variable assignments and deployments in code comments (at least 13)
           check: MatchFileFragment
           options:
-            fragment: #
+            fragment: '#'
             count: 13
             exact: false
         - description: draw at least 15 text, pyramid, box, or sphere shapes
