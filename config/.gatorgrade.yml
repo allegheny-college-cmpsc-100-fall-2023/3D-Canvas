@@ -9,7 +9,9 @@
         - description: Document your variable assignments and deployments in code comments
           check: CountSingleLineComments
           options:
+            language: "Python"
             count: 13
+            exact: false
         - description: draw at least 15 text, pyramid, box, or sphere shapes
           check: MatchFileRegex
           options:
