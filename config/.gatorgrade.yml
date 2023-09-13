@@ -6,10 +6,10 @@
             fragment: trinket.io
             count: 1
     - main.py:
-        - description: Document your variable assignments and deployments in code comments
-          check: CountSingleLineComments
+        - description: Document your variable assignments and deployments in code comments (at least 13)
+          check: MatchFileFragment
           options:
-            language: "Python"
+            fragment: #
             count: 13
             exact: false
         - description: draw at least 15 text, pyramid, box, or sphere shapes
