@@ -6,24 +6,34 @@
             fragment: trinket.io
             count: 1
     - main.py:
-        - description: Declare a variable and assign it a value at least three times
-          check: MatchFileRegex
-          options:
-            regex: (\w+)\s*=\s*(.*)
-            count: 3
-        - decription: Document your variable assignments and deployments
+        - description: Document your variable assignments and deployments in code comments
           check: CountSingleLineComments
           options:
-            count: 9
+            count: 13
+        - description: draw at least 15 text, pyramid, box, or sphere shapes
+          check: MatchFileRegex
+          options:
+            regex: (text|pyramid|box|sphere)
+            count: 15
+        - description: declare at least three string or number variables
+          check: MatchFileRegex
+          options:
+            regex: \w+\s*=\s*(\d+|\".*\")
+            count: 3
+        - description: use at least two different variables containing color and apply them to shapes
+          check: MatchFileRegex
+          options:
+            regex: color\s*=\s*w+
+            count: 2
     - IDEATION.md:
       - description: IDEATION.md contains two paragraphs. 
-            check: CountFileParagraphs
-            options:
-              count: 2
+        check: CountFileParagraphs
+        options:
+          count: 2
       - description: IDEATION.md contains at least 150 words
         check: CountFileWords
         options:
-          count: 250
+          count: 150
       - description: IDEATION.md contains at least one image
         check: MatchFileFragment
         options:
@@ -34,6 +44,11 @@
         options:
           fragment: http
           count: 1
+    - REFLECTION.md:
+      - description: REFLECTION.md contains at least 200 words
+        check: CountFileWords
+        options:
+          count: 200
       
 
      
