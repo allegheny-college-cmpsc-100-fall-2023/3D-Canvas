@@ -18,7 +18,7 @@
         - description: declare at least three string or number variables
           check: MatchFileRegex
           options:
-            regex: \w+\s*=\s*(\d+|\".*\")
+            regex: \w+\s*=\s*(\d*\.*\d+|\".*\")
             count: 3
         - description: use at least two different variables containing color and apply them to shapes
           check: MatchFileRegex
