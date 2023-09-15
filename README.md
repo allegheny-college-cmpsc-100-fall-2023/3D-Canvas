@@ -63,7 +63,7 @@ When you are ready, you will add a link to your trinket to the LINK.md file. The
 
 In order to get a "reflection" checkmark for this lab, write at least two hundred words inside "REFLECTION.md" in which you reflect on your technical and artistic goals and accomplishments with this lab. You will also consider the strengths and weaknesses of Python itself. To receive credit, your response should address each of the following bullet points.
 
-- In what ways did this project meet the goals set out in IDEATION.md? 
+- In what ways did this project meet the goals set out in IDEATION.md? If your project idea changed, that's okay! Just explain those changes here. 
 - What would you do to further achieve these goals if you had more time?
 - How did the aesthetic decisions you made affect how the project looks, feels, and exists in the world? You can talk about how it decisions that will remind the viewer of something familiar (e.g. if you used white cursive on a red background to trigger thoughts of Coca-Cola and commerce), colors that evoke a certain image or feeling (i.e. blue for calm/the ocean), a crowded canvas that evokes joyful chaos, a minimal chaos that evokes spartan calm, etc. The options are endless and these are just some examples to reference for inspiration, not to copy. I want to see your original thoughts. 
 - How did working on this project change your skills as a coder?
