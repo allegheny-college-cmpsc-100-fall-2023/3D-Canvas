@@ -60,3 +60,8 @@ jobs:
           run:  |
             pip install gatorgrade
             gatorgrade --config config/.gatorgrade.yml
+        #if last check passed, then this will run
+        - name: Note that pass is preliminary
+          if: ${{ job.status == 'success' }}
+          run:  |
+            echo "This is a preliminary pass. Professor will evaluate final results."
